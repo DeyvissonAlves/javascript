@@ -45,10 +45,10 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem suscipit nulla perspiciatis explicabo ex maiores repudiandae quaerat! Repellendus culpa ipsum dolor, quis expedita est dicta illum quod obcaecati amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore aspernatur dolorem deleniti corrupti rem iure a, cupiditate aliquid sunt ipsam quos vero doloribus, tempore enim vitae sequi ut illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum impedit quae nesciunt explicabo maxime sapiente hic reiciendis? Eligendi quidem eveniet consequuntur recusandae assumenda ut nobis velit in voluptatem facilis.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum porro et. Expedita incidunt, non, cupiditate ea deserunt tenetur quae dolore, aliquid minima aliquam iure illo consequatur praesentium nisi fuga. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid asperiores rem consequatur doloribus ullam perferendis unde voluptas illum repellendus itaque ab repudiandae ad, ex pariatur, quo est? Ducimus, quos fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum, impedit cupiditate ut, ex aperiam, fuga accusantium pariatur provident repudiandae qui temporibus voluptas totam voluptatem! Dicta aperiam perspiciatis vero natus.</p>
     <script>
-        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) // string
-        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) // string
+        var n1 = Number(window.prompt('Digite um número: ')) // string
+        var n2 = Number(window.prompt('Digite outro número: ')) // string
         var s = n1 + n2
-        window.alert('A soma dos valores é ' + s) // Concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação
         // (number + number) para adição
         // (string + string) para concatenação
     </script>
